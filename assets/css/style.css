@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top-page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/top1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.logo {
+    padding-top: 20px;
+    height: 70px;
+}
+li {
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main-visual {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-visual h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+section {
+    padding: 0 70px;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 50px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+}
+p {
+    font-size: 20px;
+    padding: 70px;
+    align-items: center;
+}
+.concept-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    /* margin: 100px 30px ;
+    text-align: center; */
+}
+.concept-contents {
+    margin-bottom: 100px;
+    
+}
+
+.use {
+    height: 300px;
+}
+
+
+.room {
+    height: 500px;
+
+}
+
+.multiple-items {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.multiple-items > img {
+    width: 700px;
+    
+}
+
+
+
+
+.access {
+    height: 300px;
+} 
+iframe {
+    display:block;
+    margin: auto;
+}
+
+#contact {
+    margin-bottom: 230px;
+}
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+input, textarea {
+    width: 40%;
+    font-size: 23px;
+    margin-bottom: 18px;
+    padding: 3px 12px;
+}
+input, textarea, button {
+    border-radius: 5px;
+}
+textarea {
+    width: 40%;
+}
+button {
+    width: 140px;
+    font-size: 23px;
+    padding: 7px;
+    height: 60px;
+    background-color: aquamarine;
+    margin-top: 26px;
+    cursor: pointer;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(170, 42, 9, 0.842);
+}
+footer p {
+    color: black;
+}
